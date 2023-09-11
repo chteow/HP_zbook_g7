@@ -15,20 +15,20 @@
                     <string>SSDT-AWAC.aml</string>
                 </dict>
                 <dict>
-                   <key>Comment</key>
-                   <string>SSDT-NoHybGfx.aml</string>
-                   <key>Path</key>
-                   <string>SSDT-NoHybGfx.aml</string>
-                   <key>Enabled</key>
-                   <true/>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-PMC.aml</string>
                 </dict>
                 <dict>
-                   <key>Comment</key>
-                   <string>SSDT-BATT.aml</string>
-                   <key>Path</key>
-                   <string>SSDT-BATT.aml</string>
-                   <key>Enabled</key>
-                   <true/>
+                    <key>Comment</key>
+                    <string>SSDT-NoHybGfx.aml</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-NoHybGfx.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -49,18 +49,18 @@
                 <dict>
                     <key>Comment</key>
                     <string>SSDT-UIAC.aml</string>
-                    <key>Path</key>
-                    <string>SSDT-UIAC.aml</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>Path</key>
+                    <string>SSDT-UIAC.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
                     <string>SSDT-TB3HP.aml</string>
-                    <key>Path</key>
-                    <string>SSDT-TB3HP.aml</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>Path</key>
+                    <string>SSDT-TB3HP.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -75,14 +75,6 @@
                     <string></string>
                     <key>Enabled</key>
                     <false/>
-                    <key>Path</key>
-                    <string>SSDT-FAN-MOD.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
                     <key>Path</key>
                     <string>SSDT-zbG1h.aml</string>
                 </dict>
@@ -101,6 +93,38 @@
                     <true/>
                     <key>Path</key>
                     <string>SSDT-XOSI.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USB-Reset.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USBX.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-EC.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-HPET.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -180,6 +204,36 @@
                     <true/>
                     <key>Find</key>
                     <data>RUMwXw==</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data></data>
+                    <key>Replace</key>
+                    <data>RUNfXw==</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data></data>
+                </dict>
+                <dict>
+                    <key>Base</key>
+                    <string></string>
+                    <key>BaseSkip</key>
+                    <integer>0</integer>
+                    <key>Comment</key>
+                    <string>change H_EC to EC</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>SF9FQw==</data>
                     <key>Limit</key>
                     <integer>0</integer>
                     <key>Mask</key>
@@ -387,7 +441,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>VVBSVwpwEg==</data>
                     <key>Limit</key>
@@ -417,7 +471,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>R1BSVwI=</data>
                     <key>Limit</key>
@@ -467,282 +521,6 @@
                     <key>TableSignature</key>
                     <data></data>
                 </dict>
-                        <dict>
-                                <key>Base</key>
-                                <string></string>
-                                <key>BaseSkip</key>
-                                <integer>0</integer>
-                                <key>Comment</key>
-                                <string>SSDT-BATT GCGC to XCGC
-</string>
-                                <key>Count</key>
-                                <integer>0</integer>
-                                <key>Enabled</key>
-                                <true/>
-                                <key>Find</key>
-                                <data>R0NHQwgITFQ=</data>
-                                <key>Limit</key>
-                                <integer>0</integer>
-                                <key>Mask</key>
-                                <data></data>
-                                <key>OemTableId</key>
-                                <data></data>
-                                <key>Replace</key>
-                                <data>WENHQwgITFQ=</data>
-                                <key>ReplaceMask</key>
-                                <data></data>
-                                <key>Skip</key>
-                                <integer>0</integer>
-                                <key>TableLength</key>
-                                <integer>0</integer>
-                                <key>TableSignature</key>
-                                <data></data>
-                        </dict>
-                        <dict>
-                                <key>Base</key>
-                                <string></string>
-                                <key>BaseSkip</key>
-                                <integer>0</integer>
-                                <key>Comment</key>
-                                <string>SSDT-BATT GBAW to XBAW
-</string>
-                                <key>Count</key>
-                                <integer>0</integer>
-                                <key>Enabled</key>
-                                <false/>
-                                <key>Find</key>
-                                <data>R0JBVwBwAGA=</data>
-                                <key>Limit</key>
-                                <integer>0</integer>
-                                <key>Mask</key>
-                                <data></data>
-                                <key>OemTableId</key>
-                                <data></data>
-                                <key>Replace</key>
-                                <data>WEJBVwBwAGA=</data>
-                                <key>ReplaceMask</key>
-                                <data></data>
-                                <key>Skip</key>
-                                <integer>0</integer>
-                                <key>TableLength</key>
-                                <integer>0</integer>
-                                <key>TableSignature</key>
-                                <data></data>
-                        </dict>
-                        <dict>
-                                <key>Base</key>
-                                <string></string>
-                                <key>BaseSkip</key>
-                                <integer>0</integer>
-                                <key>Comment</key>
-                                <string>SSDT-BATT BTIX to XTIX
-</string>
-                                <key>Count</key>
-                                <integer>0</integer>
-                                <key>Enabled</key>
-                                <true/>
-                                <key>Find</key>
-                                <data>QlRJWA==</data>
-                                <key>Limit</key>
-                                <integer>0</integer>
-                                <key>Mask</key>
-                                <data></data>
-                                <key>OemTableId</key>
-                                <data></data>
-                                <key>Replace</key>
-                                <data>WFRJWA==</data>
-                                <key>ReplaceMask</key>
-                                <data></data>
-                                <key>Skip</key>
-                                <integer>0</integer>
-                                <key>TableLength</key>
-                                <integer>0</integer>
-                                <key>TableSignature</key>
-                                <data></data>
-                        </dict>
-                        <dict>
-                                <key>Base</key>
-                                <string></string>
-                                <key>BaseSkip</key>
-                                <integer>0</integer>
-                                <key>Comment</key>
-                                <string>SSDT-BATT BTIF to XTIF
-</string>
-                                <key>Count</key>
-                                <integer>0</integer>
-                                <key>Enabled</key>
-                                <true/>
-                                <key>Find</key>
-                                <data>QlRJRgl5AWg=</data>
-                                <key>Limit</key>
-                                <integer>0</integer>
-                                <key>Mask</key>
-                                <data></data>
-                                <key>OemTableId</key>
-                                <data></data>
-                                <key>Replace</key>
-                                <data>WFRJRgl5AWg=</data>
-                                <key>ReplaceMask</key>
-                                <data></data>
-                                <key>Skip</key>
-                                <integer>0</integer>
-                                <key>TableLength</key>
-                                <integer>0</integer>
-                                <key>TableSignature</key>
-                                <data></data>
-                        </dict>
-                        <dict>
-                                <key>Base</key>
-                                <string></string>
-                                <key>BaseSkip</key>
-                                <integer>0</integer>
-                                <key>Comment</key>
-                                <string>SSDT-BATT BTST to XTST</string>
-                                <key>Count</key>
-                                <integer>0</integer>
-                                <key>Enabled</key>
-                                <true/>
-                                <key>Find</key>
-                                <data>QlRTVAp5AWg=</data>
-                                <key>Limit</key>
-                                <integer>0</integer>
-                                <key>Mask</key>
-                                <data></data>
-                                <key>OemTableId</key>
-                                <data></data>
-                                <key>Replace</key>
-                                <data>WFRTVAp5AWg=</data>
-                                <key>ReplaceMask</key>
-                                <data></data>
-                                <key>Skip</key>
-                                <integer>0</integer>
-                                <key>TableLength</key>
-                                <integer>0</integer>
-                                <key>TableSignature</key>
-                                <data></data>
-                        </dict>
-                        <dict>
-                                <key>Base</key>
-                                <string></string>
-                                <key>BaseSkip</key>
-                                <integer>0</integer>
-                                <key>Comment</key>
-                                <string>SSDT-BATT ITLB to XTLB
-</string>
-                                <key>Count</key>
-                                <integer>0</integer>
-                                <key>Enabled</key>
-                                <true/>
-                                <key>Find</key>
-                                <data>SVRMQgB3QkY=</data>
-                                <key>Limit</key>
-                                <integer>0</integer>
-                                <key>Mask</key>
-                                <data></data>
-                                <key>OemTableId</key>
-                                <data></data>
-                                <key>Replace</key>
-                                <data>WFRMQgB3QkY=</data>
-                                <key>ReplaceMask</key>
-                                <data></data>
-                                <key>Skip</key>
-                                <integer>0</integer>
-                                <key>TableLength</key>
-                                <integer>0</integer>
-                                <key>TableSignature</key>
-                                <data></data>
-                        </dict>
-                        <dict>
-                                <key>Base</key>
-                                <string></string>
-                                <key>BaseSkip</key>
-                                <integer>0</integer>
-                                <key>Comment</key>
-                                <string>SSDT-BATT GBTI to XBTI
-</string>
-                                <key>Count</key>
-                                <integer>0</integer>
-                                <key>Enabled</key>
-                                <true/>
-                                <key>Find</key>
-                                <data>R0JUSQFwDUU=</data>
-                                <key>Limit</key>
-                                <integer>0</integer>
-                                <key>Mask</key>
-                                <data></data>
-                                <key>OemTableId</key>
-                                <data></data>
-                                <key>Replace</key>
-                                <data>WEJUSQFwDUU=</data>
-                                <key>ReplaceMask</key>
-                                <data></data>
-                                <key>Skip</key>
-                                <integer>0</integer>
-                                <key>TableLength</key>
-                                <integer>0</integer>
-                                <key>TableSignature</key>
-                                <data></data>
-                        </dict>
-                        <dict>
-                                <key>Base</key>
-                                <string></string>
-                                <key>BaseSkip</key>
-                                <integer>0</integer>
-                                <key>Comment</key>
-                                <string>SSDT-BATT GBTC to XGBT</string>
-                                <key>Count</key>
-                                <integer>0</integer>
-                                <key>Enabled</key>
-                                <true/>
-                                <key>Find</key>
-                                <data>R0JUQwBwDUU=</data>
-                                <key>Limit</key>
-                                <integer>0</integer>
-                                <key>Mask</key>
-                                <data></data>
-                                <key>OemTableId</key>
-                                <data></data>
-                                <key>Replace</key>
-                                <data>WEdCVABwDUU=</data>
-                                <key>ReplaceMask</key>
-                                <data></data>
-                                <key>Skip</key>
-                                <integer>0</integer>
-                                <key>TableLength</key>
-                                <integer>0</integer>
-                                <key>TableSignature</key>
-                                <data></data>
-                        </dict>
-                        <dict>
-                                <key>Base</key>
-                                <string></string>
-                                <key>BaseSkip</key>
-                                <integer>0</integer>
-                                <key>Comment</key>
-                                <string>SSDT-BATT SBTC to XSBT</string>
-                                <key>Count</key>
-                                <integer>0</integer>
-                                <key>Enabled</key>
-                                <true/>
-                                <key>Find</key>
-                                <data>U0JUQwNwDUU=</data>
-                                <key>Limit</key>
-                                <integer>0</integer>
-                                <key>Mask</key>
-                                <data></data>
-                                <key>OemTableId</key>
-                                <data></data>
-                                <key>Replace</key>
-                                <data>WFNCVANwDUU=</data>
-                                <key>ReplaceMask</key>
-                                <data></data>
-                                <key>Skip</key>
-                                <integer>0</integer>
-                                <key>TableLength</key>
-                                <integer>0</integer>
-                                <key>TableSignature</key>
-                                <data></data>
-                        </dict>
                 <dict>
                     <key>Base</key>
                     <string></string>
@@ -843,7 +621,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>QlRJRgl5Cg==</data>
                     <key>Limit</key>
@@ -873,7 +651,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>QlRJRgl5AWg=</data>
                     <key>Limit</key>
@@ -903,7 +681,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>QlRTVAp5Cg==</data>
                     <key>Limit</key>
@@ -933,7 +711,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>QlRTVAp5AWg=</data>
                     <key>Limit</key>
@@ -963,7 +741,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>U0JUQwNwDQ==</data>
                     <key>Limit</key>
@@ -993,7 +771,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>R0JUSQFwDQ==</data>
                     <key>Limit</key>
@@ -1023,7 +801,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>R0JUQwBwDQ==</data>
                     <key>Limit</key>
@@ -1053,7 +831,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>SVRMQgA=</data>
                     <key>Limit</key>
@@ -1083,7 +861,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>R0FDVwA=</data>
                     <key>Limit</key>
@@ -1113,7 +891,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>R0JBVwA=</data>
                     <key>Limit</key>
@@ -1169,131 +947,11 @@
                     <key>BaseSkip</key>
                     <integer>0</integer>
                     <key>Comment</key>
-                    <string>change Notify(\_SB.BAT0,...) to Notify(_SB.BATC,...)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>hlwuX1NCX0JBVDA=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>hlwuX1NCX0JBVEM=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>change Notify(\_SB.BAT1,...) to Notify(_SB.BATC,...)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>hlwuX1NCX0JBVDE=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>hlwuX1NCX0JBVEM=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>change Notify(BAT0,...) to Notify(BATC,...)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>hkJBVDA=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>hkJBVEM=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>change Notify(BAT1,...) to Notify(BATC,...)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>hkJBVDE=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>hkJBVEM=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
                     <string>change Method(RDSS,1,S) to XDSS</string>
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>UkRTUwk=</data>
                     <key>Limit</key>
@@ -1323,7 +981,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>X1JFRwKgKJNoCgM=</data>
                     <key>Limit</key>
@@ -1353,7 +1011,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>X1JFRwKgFJNoCgM=</data>
                     <key>Limit</key>
@@ -1423,24 +1081,7 @@
         <key>Booter</key>
         <dict>
             <key>MmioWhitelist</key>
-            <array>
-                <dict>
-                    <key>Address</key>
-                    <integer>4275159040</integer>
-                    <key>Comment</key>
-                    <string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
-                    <key>Enabled</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Address</key>
-                    <integer>4278190080</integer>
-                    <key>Comment</key>
-                    <string>Generic: PCI root is a 0x1000 page memory region used by some types of firmware</string>
-                    <key>Enabled</key>
-                    <false/>
-                </dict>
-            </array>
+            <array/>
             <key>Patch</key>
             <array/>
             <key>Quirks</key>
@@ -1545,61 +1186,74 @@
                     <key>model</key>
                     <string>8 Series/C220 Series Chipset Family PCI Express Root Port #9</string>
                 </dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,3</string>
+                    <key>device_type</key>
+                    <string>Audio device</string>
+                    <key>hda-gfx</key>
+                    <string>onboard-1</string>
+                    <key>layout-id</key>
+                    <data>NAAAAA==</data>
+                    <key>model</key>
+                    <string>8 Series/C220 Series Chipset High Definition Audio Controller</string>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
-                	<key>AAPL,ig-platform-id</key>
-              	  	<data>CQCbPg==</data>
-                	<key>AAPL,slot-name</key>
-                	<string>Internal@0,2,0</string>
-               	 	<key>device-id</key>
-                	<data>mz4AAA==</data>
-                	<key>device_type</key>
-                	<string>VGA compatible controller</string>
-                	<key>disable-external-gpu</key>
-                	<data>AQAAAA==</data>
-                	<key>enable-hdmi-dividers-fix</key>
-                	<data>AQAAAA==</data>
-                	<key>enable-hdmi20</key>
-                	<data>AQAAAA==</data>
-                	<key>enable-lspcon-support</key>
-                	<data>AQAAAA==</data>
-               	 	<key>framebuffer-con0-enable</key>
-                	<data>AQAAAA==</data>
-                	<key>framebuffer-con0-pipe</key>
-                	<data>EgAAAA==</data>
-                	<key>framebuffer-con1-busid</key>
-                	<data>AQAAAA==</data>
-                	<key>framebuffer-con1-enable</key>
-                	<data>AQAAAA==</data>
-                	<key>framebuffer-con1-has-lspcon</key>
-                	<data>AQAAAA==</data>
-                	<key>framebuffer-con1-pipe</key>
-                	<data>EgAAAA==</data>
-                	<key>framebuffer-con1-preferred-lspcon-mode</key>
-                	<data>AQAAAA==</data>
-                	<key>framebuffer-con1-type</key>
-                	<data>AAgAAA==</data>
-                	<key>framebuffer-con2-enable</key>
-                	<data>AQAAAA==</data>
-                	<key>framebuffer-con2-index</key>
-                	<data>/////w==</data>
-                	<key>framebuffer-con2-pipe</key>
-                	<data>EgAAAA==</data>
-                	<key>framebuffer-con2-type</key>
-                	<data>AAgAAA==</data>
-                	<key>framebuffer-flags</key>
-                	<data>DxvzAA==</data>
-                	<key>framebuffer-patch-enable</key>
-                	<data>AQAAAA==</data>
-                	<key>framebuffer-portcount</key>
-                	<data>AgAAAA==</data>
-                	<key>framebuffer-stolenmem</key>
-                	<data>AADgAQ==</data>
-                	<key>framebuffer-unifiedmem</key>
-                	<data>AAAAgA==</data>
-                	<key>model</key>
-                	<string>Intel Iris Plus Graphics 655</string>
-            	</dict> 
+                    <key>AAPL,ig-platform-id</key>
+                    <data>CQCbPg==</data>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,2,0</string>
+                    <key>device-id</key>
+                    <data>mz4AAA==</data>
+                    <key>device_type</key>
+                    <string>VGA compatible controller</string>
+                    <key>disable-external-gpu</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-hdmi-dividers-fix</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-hdmi20</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-lspcon-support</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con0-pipe</key>
+                    <data>EgAAAA==</data>
+                    <key>framebuffer-con1-busid</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-has-lspcon</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-pipe</key>
+                    <data>EgAAAA==</data>
+                    <key>framebuffer-con1-preferred-lspcon-mode</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-con2-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con2-index</key>
+                    <data>/////w==</data>
+                    <key>framebuffer-con2-pipe</key>
+                    <data>EgAAAA==</data>
+                    <key>framebuffer-con2-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-flags</key>
+                    <data>DxvzAA==</data>
+                    <key>framebuffer-patch-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-portcount</key>
+                    <data>AgAAAA==</data>
+                    <key>framebuffer-stolenmem</key>
+                    <data>AADgAQ==</data>
+                    <key>framebuffer-unifiedmem</key>
+                    <data>AAAAgA==</data>
+                    <key>model</key>
+                    <string>Intel Iris Plus Graphics 655</string>
+                </dict>
             </dict>
             <key>Delete</key>
             <dict/>
@@ -1630,78 +1284,6 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>ACPIMonitor.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.3</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/ACPIMonitor</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>IntelCPUMonitor.kext</string>
-                    <key>Comment</key>
-                    <string>V1.2.5</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelCPUMonitor</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>ITEIT87x.kext</string>
-                    <key>Comment</key>
-                    <string>V1.0.7</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/ITEIT87x</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>VoodooBatterySMC.kext</string>
-                    <key>Comment</key>
-                    <string>V1.6.3</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooBatterySMC</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>IntelMausi.kext</string>
                     <key>Comment</key>
                     <string>V1.0.6</string>
@@ -1709,132 +1291,6 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelMausi</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>UTBMap.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string></string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>USBToolBox.kext</string>
-                    <key>Comment</key>
-                    <string>V1.1.1</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/USBToolBox</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>VoltageShift.kext</string>
-                    <key>Comment</key>
-                    <string>V1.24</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoltageShift</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>AirportItlwm.kext</string>
-                    <key>Comment</key>
-                    <string>Intel Wireless Driver Ventura</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string>20.0.0</string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>IntelBluetoothInjector.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBluetoothInjector</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string>20.0.0</string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>IntelBluetoothFirmware.kext</string>
-                    <key>Comment</key>
-                    <string>V2.6.0</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>CodecCommander.kext</string>
-                    <key>Comment</key>
-                    <string>V2.7.2</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/CodecCommander</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1864,13 +1320,157 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>NootedRed.kext</string>
+                    <string>UTBMap.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.0</string>
+                    <string>V1.1</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/NootedRed</string>
+                    <string></string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>USBToolBox.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.1</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/USBToolBox</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>VoltageShift.kext</string>
+                    <key>Comment</key>
+                    <string>V1.24</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/VoltageShift</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>USBInjectAll.kext</string>
+                    <key>Comment</key>
+                    <string>V0.8</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/USBInjectAll</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportItlwm.kext</string>
+                    <key>Comment</key>
+                    <string>Intel Wireless Driver Ventura</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportItlwm</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>20.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelBluetoothFirmware.kext</string>
+                    <key>Comment</key>
+                    <string>V2.6.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBluetoothFirmware</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>IntelBTPatcher.kext</string>
+                    <key>Comment</key>
+                    <string>V2.3.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBTPatcher</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>BlueToolFixup.kext</string>
+                    <key>Comment</key>
+                    <string>Bluetooth Fixup for Ventura</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/BlueToolFixup</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>20.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>ECEnabler.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.3 | ECEnabler.kext</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/ECEnabler</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -2105,24 +1705,6 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/RTCMemoryFixup</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>HibernationFixup.kext</string>
-                    <key>Comment</key>
-                    <string>V1.4.1</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/HibernationFixup</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -2423,11 +2005,131 @@
                     <key>Skip</key>
                     <integer>0</integer>
                 </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>Base</key>
+                    <string>_register_and_init_prng</string>
+                    <key>Comment</key>
+                    <string>SurPlus v1 - PART 2 of 2 - Patch register_and_init_prng</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Find</key>
+                    <data>ukgBAAAx9g==</data>
+                    <key>Identifier</key>
+                    <string>kernel</string>
+                    <key>Limit</key>
+                    <integer>256</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>MaxKernel</key>
+                    <string>21.1.0</string>
+                    <key>MinKernel</key>
+                    <string>20.4.0</string>
+                    <key>Replace</key>
+                    <data>ukgBAADrBQ==</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>Base</key>
+                    <string>_early_random</string>
+                    <key>Comment</key>
+                    <string>SurPlus v1 - PART 1 of 2 - Patch read_erandom (inlined in _early_random)</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Find</key>
+                    <data>AHQjSIs=</data>
+                    <key>Identifier</key>
+                    <string>kernel</string>
+                    <key>Limit</key>
+                    <integer>800</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>MaxKernel</key>
+                    <string>21.1.0</string>
+                    <key>MinKernel</key>
+                    <string>20.4.0</string>
+                    <key>Replace</key>
+                    <data>AOsjSIs=</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>Base</key>
+                    <string>_vstart</string>
+                    <key>Comment</key>
+                    <string>Early reboot</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Find</key>
+                    <data></data>
+                    <key>Identifier</key>
+                    <string>kernel</string>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>Replace</key>
+                    <data>McCwBrr5DAAA7uv+</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>x86_64</string>
+                    <key>Base</key>
+                    <string>_disable_serial_output</string>
+                    <key>Comment</key>
+                    <string>Enable early serial output on RELEASE kernel</string>
+                    <key>Count</key>
+                    <integer>1</integer>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Find</key>
+                    <data></data>
+                    <key>Identifier</key>
+                    <string>kernel</string>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>Replace</key>
+                    <data>AA==</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                </dict>
             </array>
             <key>Quirks</key>
             <dict>
                 <key>AppleCpuPmCfgLock</key>
-                <true/>
+                <false/>
                 <key>AppleXcpmCfgLock</key>
                 <true/>
                 <key>AppleXcpmExtraMsrs</key>
@@ -2445,9 +2147,9 @@
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
-                <true/>
+                <false/>
                 <key>ExtendBTFeatureFlags</key>
-                <true/>
+                <false/>
                 <key>ExternalDiskIcons</key>
                 <false/>
                 <key>ForceAquantiaEthernet</key>
@@ -2457,7 +2159,7 @@
                 <key>IncreasePciBarSize</key>
                 <false/>
                 <key>LapicKernelPanic</key>
-                <true/>
+                <false/>
                 <key>LegacyCommpage</key>
                 <false/>
                 <key>PanicNoKextDump</key>
@@ -2471,7 +2173,7 @@
                 <key>ThirdPartyDrives</key>
                 <true/>
                 <key>XhciPortLimit</key>
-                <false/>
+                <true/>
             </dict>
             <key>Scheme</key>
             <dict>
@@ -2499,6 +2201,8 @@
                 <false/>
                 <key>HideAuxiliary</key>
                 <true/>
+                <key>InstanceIdentifier</key>
+                <string></string>
                 <key>LauncherOption</key>
                 <string>Disabled</string>
                 <key>LauncherPath</key>
@@ -2578,316 +2282,7 @@
                 <false/>
             </dict>
             <key>Tools</key>
-            <array>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string>Not signed for security reasons</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>UEFI Shell</string>
-                    <key>Path</key>
-                    <string>OpenShell.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <true/>
-                    <key>Comment</key>
-                    <string>OpenLinuxBoot</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>Linux Boot</string>
-                    <key>Path</key>
-                    <string>OpenLinuxBoot.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string>Memory testing utility</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>Key Tester</string>
-                    <key>Path</key>
-                    <string>KeyTester.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string>Shutdown</string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <true/>
-                    <key>Comment</key>
-                    <string>Perform shutdown</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>Reset System</string>
-                    <key>Path</key>
-                    <string>ResetSystem.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>Boot Kicker</string>
-                    <key>Path</key>
-                    <string>BootKicker.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>Chip Tune</string>
-                    <key>Path</key>
-                    <string>ChipTune.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <true/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>Clean NVRAM</string>
-                    <key>Path</key>
-                    <string>CleanNvram.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>Control MsrE2</string>
-                    <key>Path</key>
-                    <string>ControlMsrE2.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>Gop Stop</string>
-                    <key>Path</key>
-                    <string>GopStop.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>HDACodecDump</string>
-                    <key>Path</key>
-                    <string>HdaCodecDump.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>MmapDump</string>
-                    <key>Path</key>
-                    <string>MmapDump.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>OpenControl</string>
-                    <key>Path</key>
-                    <string>OpenControl.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>RtcRw</string>
-                    <key>Path</key>
-                    <string>RtcRw.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Arguments</key>
-                    <string></string>
-                    <key>FullNvramAccess</key>
-                    <false/>
-                    <key>Auxiliary</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Flavour</key>
-                    <string>Auto</string>
-                    <key>Name</key>
-                    <string>VerifyMsrE2</string>
-                    <key>Path</key>
-                    <string>VerifyMsrE2.efi</string>
-                    <key>RealPath</key>
-                    <false/>
-                    <key>TextMode</key>
-                    <false/>
-                </dict>
-            </array>
+            <array/>
         </dict>
         <key>NVRAM</key>
         <dict>
@@ -2897,10 +2292,6 @@
                 <dict>
                     <key>DefaultBackgroundColor</key>
                     <data>AAAAAA==</data>
-                    <key>UIScale</key>
-                    <data>AQ==</data>
-                    <key>run-efi-updater</key>
-                    <string>No</string>
                 </dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
@@ -2916,11 +2307,11 @@
                     <key>SystemAudioVolume</key>
                     <data>EA==</data>
                     <key>boot-args</key>
-                    <string>alcid=52 npci=0x2000 debug=0x1000 -v keepsyms=1</string>
+                    <string>npci=0x2000 debug=0x1000 -v keepsyms=1</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
-                    <data>en-US:0</data>
+                    <data></data>
                     <key>run-efi-updater</key>
                     <string>No</string>
                 </dict>
@@ -2982,26 +2373,26 @@
             <false/>
             <key>Generic</key>
             <dict>
-                        <key>AdviseFeatures</key>
-                        <false/>
-                        <key>MLB</key>
-                        <string></string>
-                        <key>MaxBIOSVersion</key>
-                        <false/>
-                        <key>ProcessorType</key>
-                        <integer>1537</integer>
-                        <key>ROM</key>
-                        <data></data>
-                        <key>SpoofVendor</key>
-                        <true/> 
-                        <key>SystemMemoryStatus</key>
-                        <string>Auto</string>
-                        <key>SystemProductName</key>
-                        <string>MacPro7,1</string>
-                        <key>SystemSerialNumber</key>
-                        <string></string>
-                        <key>SystemUUID</key>
-                        <string></string>
+                <key>AdviseFeatures</key>
+                <false/>
+                <key>MLB</key>
+                <string>F5K2512074NK3F71H</string>
+                <key>MaxBIOSVersion</key>
+                <false/>
+                <key>ProcessorType</key>
+                <integer>1537</integer>
+                <key>ROM</key>
+                <data>ABnjsJLR</data>
+                <key>SpoofVendor</key>
+                <true/>
+                <key>SystemMemoryStatus</key>
+                <string>Auto</string>
+                <key>SystemProductName</key>
+                <string>MacPro7,1</string>
+                <key>SystemSerialNumber</key>
+                <string>F5KJVKZKP7QM</string>
+                <key>SystemUUID</key>
+                <string>E6688FFD-D571-4EAC-9E96-A216A7A26115</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -3065,7 +2456,7 @@
                 <key>AudioCodec</key>
                 <integer>0</integer>
                 <key>AudioDevice</key>
-                <string>PciRoot(0x0)/Pci(0x1f,0x0)</string>
+                <string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
                 <key>AudioOutMask</key>
                 <integer>1</integer>
                 <key>AudioSupport</key>
@@ -3283,32 +2674,7 @@
                 <true/>
             </dict>
             <key>ReservedMemory</key>
-            <array>
-                <dict>
-                    <key>Address</key>
-                    <integer>268435456</integer>
-                    <key>Comment</key>
-                    <string>HD3000: IGPU memory corruption errata</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Size</key>
-                    <integer>268435456</integer>
-                    <key>Type</key>
-                    <string>Reserved</string>
-                </dict>
-                <dict>
-                    <key>Address</key>
-                    <integer>569344</integer>
-                    <key>Comment</key>
-                    <string>Fix black screen on wake from hibernation for Lenovo Thinkpad T490</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Size</key>
-                    <integer>4096</integer>
-                    <key>Type</key>
-                    <string>RuntimeCode</string>
-                </dict>
-            </array>
+            <array/>
         </dict>
     </dict>
 </plist>
