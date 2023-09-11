@@ -8,9 +8,8 @@ Video Intel UHD GT2 <br>
 Wifi AX201 (CNVi)  <br>
 Camera <br>
 Touchpad <br> <br>
+Trackpoint - using VoodooRMI <br>
+Bluetooth <br>
 
 No Working <br>
-Bluetooth <br>
-trackpoint <br>
-
-
+sleep mode <br>
